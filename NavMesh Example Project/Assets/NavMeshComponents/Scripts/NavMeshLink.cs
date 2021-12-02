@@ -13,11 +13,11 @@ namespace UnityEngine.AI
         public int agentTypeID { get { return m_AgentTypeID; } set { m_AgentTypeID = value; UpdateLink(); } }
 
         [SerializeField]
-        Vector3 m_StartPoint = new Vector3(0.0f, 0.0f, -2.5f);
+        Vector3 m_StartPoint = new Vector3(0.0f, 0.0f, -3.5f);
         public Vector3 startPoint { get { return m_StartPoint; } set { m_StartPoint = value; UpdateLink(); } }
 
         [SerializeField]
-        Vector3 m_EndPoint = new Vector3(0.0f, 0.0f, 2.5f);
+        Vector3 m_EndPoint = new Vector3(0.0f, 0.0f, 3.5f);
         public Vector3 endPoint { get { return m_EndPoint; } set { m_EndPoint = value; UpdateLink(); } }
 
         [SerializeField]
